@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-30T17:34:05.578Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="JGtQVpEfFUg3v8Pz73bs" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-30T17:48:04.215Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Zb1u3JZnz7Bh9mgFaBQZ" version="24.3.1" type="github">
   <diagram name="Page-1" id="kse7vjtmKsEr2--jnAdk">
     <mxGraphModel dx="1600" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry y="198" width="400" height="152" as="geometry" />
         </mxCell>
         <mxCell id="h6sXqNmCU9K96XIGyQ9f-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;TripManager&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="610" width="450" height="386" as="geometry" />
+          <mxGeometry x="120" y="610" width="450" height="386" as="geometry" />
         </mxCell>
         <mxCell id="h6sXqNmCU9K96XIGyQ9f-6" value="&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;- &lt;u&gt;tripManagerInstance : TripManager&lt;/u&gt;&lt;br&gt;- riderManagerInstance : RiderManager&lt;br&gt;- driverManagerInstance: DriverManagerInstance&lt;br&gt;- tripMetaDataInfo : Map&amp;lt;int, TripMetaDaInaInfo&amp;gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;- tripInfo : Map&amp;lt;int, Trip&amp;gt;&lt;/font&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-5">
           <mxGeometry y="26" width="450" height="134" as="geometry" />
@@ -25,7 +25,7 @@
         <mxCell id="h6sXqNmCU9K96XIGyQ9f-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-5">
           <mxGeometry y="160" width="450" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="h6sXqNmCU9K96XIGyQ9f-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- TripManager()&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;+ getTripManagerInstance() : TripManager&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;+ createTrip(Rider pRider, Location pSrcLoc, Location pDstLoc)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;+ getTripsMap() : Map&amp;lt;String, Trip&amp;gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-5">
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- TripManager()&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;+ &lt;u&gt;getTripManagerInstance() : TripManager&lt;/u&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;+ createTrip(Rider pRider, Location pSrcLoc, Location pDstLoc)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;+ getTripsMap() : Map&amp;lt;String, Trip&amp;gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-5">
           <mxGeometry y="168" width="450" height="218" as="geometry" />
         </mxCell>
         <mxCell id="h6sXqNmCU9K96XIGyQ9f-9" value="TripMetaData" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -61,7 +61,7 @@
         <mxCell id="h6sXqNmCU9K96XIGyQ9f-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-16">
           <mxGeometry y="150" width="340" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="h6sXqNmCU9K96XIGyQ9f-19" value="-&amp;nbsp; DriverManager()&lt;div&gt;+ getDriverManagerInstance() : DriverManager&lt;/div&gt;&lt;div&gt;+ addDriver(String pDriverName, Rider rider)&lt;/div&gt;&lt;div&gt;+&amp;nbsp; getDriver(String pDriverName) : Driver&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-16">
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-19" value="-&amp;nbsp; DriverManager()&lt;div&gt;&lt;u&gt;+ getDriverManagerInstance() : DriverManager&lt;/u&gt;&lt;/div&gt;&lt;div&gt;+ addDriver(String pDriverName, Rider rider)&lt;/div&gt;&lt;div&gt;+&amp;nbsp; getDriver(String pDriverName) : Driver&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-16">
           <mxGeometry y="158" width="340" height="112" as="geometry" />
         </mxCell>
         <mxCell id="h6sXqNmCU9K96XIGyQ9f-20" value="RiderManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -73,7 +73,7 @@
         <mxCell id="h6sXqNmCU9K96XIGyQ9f-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-20">
           <mxGeometry y="150" width="340" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="h6sXqNmCU9K96XIGyQ9f-23" value="-&amp;nbsp; RiderManager()&lt;div&gt;+ getRiderManagerInstance() : RiderManager&lt;/div&gt;&lt;div&gt;+ addRider(String pRiderName, Rider rider)&lt;/div&gt;&lt;div&gt;+&amp;nbsp; getRider(String pRiderName) : Driver&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-20">
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-23" value="-&amp;nbsp; RiderManager()&lt;div&gt;&lt;u&gt;+ getRiderManagerInstance() : RiderManager&lt;/u&gt;&lt;/div&gt;&lt;div&gt;+ addRider(String pRiderName, Rider rider)&lt;/div&gt;&lt;div&gt;+&amp;nbsp; getRider(String pRiderName) : Driver&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-20">
           <mxGeometry y="158" width="340" height="112" as="geometry" />
         </mxCell>
         <mxCell id="h6sXqNmCU9K96XIGyQ9f-32" value="Rider" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -99,6 +99,120 @@
         </mxCell>
         <mxCell id="h6sXqNmCU9K96XIGyQ9f-39" value="+ Driver(String name, RATING rating)&lt;div&gt;+ getDriverRating() : RATING&lt;/div&gt;&lt;div&gt;+ getDriverName() : String&lt;/div&gt;&lt;div&gt;+ updteAvail(boolean pAvail)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-36">
           <mxGeometry y="118" width="350" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-40" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="230" y="1550" as="sourcePoint" />
+            <mxPoint x="230" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-41" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.457;exitY=-0.015;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="h6sXqNmCU9K96XIGyQ9f-36">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="679.5" y="1530" as="sourcePoint" />
+            <mxPoint x="679.5" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-42" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="1150" as="sourcePoint" />
+            <mxPoint x="240" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-43" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="610" y="1150" as="sourcePoint" />
+            <mxPoint x="490" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-44" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;PricingStrategy&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ calcualtePrice(TripMetaData tripMetaData) : double&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="820" y="740" width="470" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-45" value="StrategyManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="400" width="470" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-46" value="- &lt;u&gt;strategyManager : StrategyManager&lt;/u&gt;&lt;div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-45">
+          <mxGeometry y="26" width="470" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-47" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-45">
+          <mxGeometry y="90" width="470" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-48" value="- StrategyManager()&lt;div&gt;+ &lt;u&gt;getStrategyManager() : StrategyManager&lt;/u&gt;&lt;/div&gt;&lt;div&gt;+ determinePricingStrategy : PricingStrategy&lt;/div&gt;&lt;div&gt;+ determineDriverMatchingStrategy : DriverMatchingStrategy&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-45">
+          <mxGeometry y="98" width="470" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-51" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="h6sXqNmCU9K96XIGyQ9f-45">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="190" as="sourcePoint" />
+            <mxPoint x="-100" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-49" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="580" y="650" as="sourcePoint" />
+            <mxPoint x="1190" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-50" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;DriverMatchingStrategy&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ matchDriver(TripMetaData tripMetaData) : Driver&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="740" width="470" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-52" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1470" y="590" as="sourcePoint" />
+            <mxPoint x="1690" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-53" value="DefaultPricingStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="970" width="440" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-54" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-53">
+          <mxGeometry y="26" width="440" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-55" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-53">
+          <mxGeometry y="70" width="440" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-56" value="+ calculatePrice(TripMetaData tripMetaData) : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-53">
+          <mxGeometry y="78" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-57" value="RatingBasedPricingStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="970" width="440" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-58" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-57">
+          <mxGeometry y="26" width="440" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-59" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-57">
+          <mxGeometry y="70" width="440" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-60" value="+ calculatePrice(TripMetaData tripMetaData) : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-57">
+          <mxGeometry y="78" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-61" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="980" y="960" as="sourcePoint" />
+            <mxPoint x="1010" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-62" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.87;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="h6sXqNmCU9K96XIGyQ9f-44">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1310" y="960" as="sourcePoint" />
+            <mxPoint x="1020" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-63" value="LeatTimeBasedMatchingStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="970" width="440" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-64" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-63">
+          <mxGeometry y="26" width="440" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-65" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-63">
+          <mxGeometry y="70" width="440" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-66" value="+ matchDriver(TripMetaData tripMetaData) : Driver" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h6sXqNmCU9K96XIGyQ9f-63">
+          <mxGeometry y="78" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="h6sXqNmCU9K96XIGyQ9f-67" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.87;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1951" y="970" as="sourcePoint" />
+            <mxPoint x="1870" y="894" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
